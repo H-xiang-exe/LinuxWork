@@ -1,0 +1,120 @@
+ 1430  sed -i "s/main/xh/g"`find . -name *.c`
+ 1431  ll
+ 1432  find . -name *.c|xargs sed -i "s/main/xh/g"
+ 1433  cd case1
+ 1434  ll
+ 1435  cat test.c
+ 1436  cd ..
+ 1437  find . -name *.c|xargs sed -i "s/xh/main/g"
+ 1438  ll
+ 1439  mkdir tdtask
+ 1440  cd tdtask
+ 1441  vim lucky.c
+ 1442  vim lucky.c 
+ 1443  gcc -E lucky.c -o lucky.s
+ 1444  ll
+ 1445  rm lucky.s
+ 1446  ll
+ 1447  gcc -E lucky.c -o lucky.i
+ 1448  vim lucky.i
+ 1449  gcc -S lucky.i -o lucky.s
+ 1450  vim lucky.c
+ 1451  vim lucky.
+ 1452  vim lucky.c
+ 1453  ll
+ 1454  gcc -S lucky.i -o lucky.s
+ 1455  vim lucky.c
+ 1456  ll
+ 1457  rm lucky.c
+ 1458  rm lucky.i
+ 1459  vim lk.c
+ 1460  gcc lk.c -c
+ 1461  vim lk.c
+ 1462  gcc -E lk.c -o lk.i
+ 1463  vim lk.i
+ 1464  gcc -S lk.i -o lk.s
+ 1465  vim lk.s
+ 1466  as lk.s -o lk.o
+ 1467  vim lk.o
+ 1468  gcc lk.o lk
+ 1469  gcc lk.o -o lk
+ 1470  ll
+ 1471  ./lk
+ 1472  vim multi.c
+ 1473  mv multi.c main.c
+ 1474  ll
+ 1475  vim multi.c
+ 1476  ll
+ 1477  gcc -c multi.c
+ 1478  ll
+ 1479  ar crsv libmulti.a multi.o
+ 1480  ll
+ 1481  cp libmulti.a /usr/lib
+ 1482  sudo cp libmulti.a  /usr/lib
+ 1483  gcc main.c -o main -lmulti
+ 1484  ./main
+ 1485  ll
+ 1486  mkdir static
+ 1487  mv main* static
+ 1488  ll
+ 1489  mv multi* static
+ 1490  ll
+ 1491  mkdir lk
+ 1492  mv lk* lk
+ 1493  mkdir lk
+ 1494  mkdir lucky
+ 1495  mv lk* lucky
+ 1496  ll
+ 1497  mv libmulti.a  static
+ 1498  cp static dynamiv
+ 1499  cp -r static dynamic
+ 1500  cd dynamic/
+ 1501  ll
+ 1502  rm main
+ 1503  rm main.c
+ 1504  rm libmulti.a 
+ 1505  ll
+ 1506  rm multi.o
+ 1507  cd ..
+ 1508  cp static/main.c dynamic/
+ 1509  cd dynamic/
+ 1510  ll
+ 1511  gcc multi.c -c fPIC
+ 1512  gcc -fPIC -c multi.c
+ 1513  ll
+ 1514  gcc -shared -o libmulti.so multi.o
+ 1515  ll
+ 1516  sudo cp libmulti.so /usr/lib
+ 1517  gcc -o main.c main -lmulti
+ 1518  gcc main.c -o main -lmulti
+ 1519  ./main
+ 1520  sudo cp libmulti.so /lib
+ 1521  ./main
+ 1522  cp libmulti.so libmulti.so.0.0.2
+ 1523  ln -s libmulti.so.0.0.2 libmulti.so
+ 1524  rm libmulti.so
+ 1525  ln -s libmulti.so.0.0.2 libmulti.so
+ 1526  ll
+ 1527  ./main
+ 1528  cd ..
+ 1529  mkdir gdb
+ 1530  cd gdb
+ 1531  vim main.c
+ 1532  gcc -c main.c -g
+ 1533  gdb a.out
+ 1534  ll
+ 1535  gcc main.o main
+ 1536  gcc main.c -o main
+ 1537  ll
+ 1538  gdb main.o
+ 1539  ll
+ 1540  rm main
+ 1541  gdb main.o
+ 1542  ll
+ 1543  rm main.o
+ 1544  gcc main.c -o main -g
+ 1545  ll
+ 1546  gdb main
+ 1547  history
+ 1548  history|tail -120 day15_xianghao.txt
+ 1549  history|tail -120>day15_xianghao.txt

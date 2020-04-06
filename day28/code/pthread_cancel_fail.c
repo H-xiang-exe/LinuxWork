@@ -1,0 +1,22 @@
+#include <func.h>
+//子线程在cancel点之前陷入死循环cancel无法取消子线程
+void *threadFunc(void *p){
+    while(1);
+    printf("I am child thread I wake\n");
+    pthread_exit(NULL);
+}
+int main(int argc,char *argv[])
+{
+    pthread_t pthid;
+    int ret=pthread_create(&pthid,NULL,threadFunc,NULL);
+    THREAD_ERROR_CHECK(ret,"pthread_create");
+    ret=pthread_cancel(pthid);
+    THREAD_ERROR_CHECK(ret,"pthread_cancel");
+    long threadRet;
+    ret=pthread_join(pthid,(void**)&threadRet);
+    THREAD_ERROR_CHECK(ret,"pthread_join");
+    //线程被cancel以后，返回值为-1
+    printf("child exit code=%ld\n",threadRet);
+    return 0;
+}
+

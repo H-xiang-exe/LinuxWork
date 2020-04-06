@@ -1,0 +1,60 @@
+Thu Feb 27 23:33:32 2020 login:192.168.6.137 37162
+Thu Feb 27 23:34:52 2020 login:192.168.6.137 37188
+Thu Feb 27 23:36:57 2020 login:192.168.6.137 37194
+Thu Feb 27 23:40:08 2020 login:192.168.6.137 37222
+Thu Feb 27 23:40:16 2020 command:ls
+Thu Feb 27 23:40:23 2020 command:pwd
+Thu Feb 27 23:40:30 2020 command:logout
+Fri Feb 28 11:17:12 2020 login:192.168.6.137 37280
+Fri Feb 28 11:17:19 2020 command:ls
+Fri Feb 28 11:17:37 2020 command:cd ..
+Fri Feb 28 11:17:44 2020 command:cd src
+Fri Feb 28 11:17:49 2020 command:logout
+Fri Feb 28 11:28:33 2020 login:192.168.6.137 37324
+Fri Feb 28 11:28:44 2020 command:logout
+Fri Feb 28 11:29:17 2020 login:192.168.6.137 37328
+Fri Feb 28 11:29:26 2020 command:ls
+Fri Feb 28 11:29:29 2020 command:cd ..
+Fri Feb 28 11:29:43 2020 command:ls
+Fri Feb 28 11:29:48 2020 command:cd ..
+Fri Feb 28 11:29:49 2020 command:ll
+Fri Feb 28 11:59:14 2020 login:192.168.6.137 37342
+Fri Feb 28 11:59:20 2020 command:ls
+Fri Feb 28 11:59:22 2020 command:logout
+Fri Feb 28 12:41:09 2020 login:192.168.6.137 37488
+Fri Feb 28 12:46:11 2020 login:192.168.6.137 37512
+Fri Feb 28 12:46:19 2020 command:logout
+Fri Feb 28 13:00:14 2020 login:192.168.6.137 37580
+Fri Feb 28 13:00:24 2020 command:ls
+Fri Feb 28 13:00:27 2020 command:logout
+Fri Feb 28 13:20:39 2020 login:192.168.6.137 37636
+Fri Feb 28 13:20:47 2020 command:logout
+Fri Feb 28 13:22:46 2020 login:192.168.6.137 37662
+Fri Feb 28 13:23:08 2020 login:192.168.6.137 37664
+Fri Feb 28 13:23:15 2020 command:ls
+Fri Feb 28 13:26:30 2020 login:192.168.6.137 37670
+Fri Feb 28 13:26:36 2020 command:ls
+Fri Feb 28 13:26:44 2020 command:lougo
+Fri Feb 28 13:26:52 2020 login:192.168.6.137 37672
+Fri Feb 28 13:27:00 2020 command:logout
+Fri Feb 28 13:55:02 2020 login:192.168.6.137 37742
+Fri Feb 28 13:55:10 2020 command:logout
+Fri Feb 28 14:08:06 2020 login:192.168.6.137 37764
+Fri Feb 28 14:08:18 2020 command:logout
+Fri Feb 28 14:14:48 2020 login:192.168.6.137 37778
+Fri Feb 28 14:15:00 2020 command:logout
+Fri Feb 28 14:21:50 2020 login:192.168.6.137 37800
+Fri Feb 28 14:23:22 2020 login:192.168.6.137 37814
+Fri Feb 28 14:31:15 2020 login:192.168.6.137 37844
+Fri Feb 28 15:11:22 2020 login:192.168.6.137 37878
+Fri Feb 28 15:11:35 2020 command:logout
+Fri Feb 28 15:16:03 2020 login:192.168.6.137 37888
+Fri Feb 28 15:16:10 2020 command:logout
+Fri Feb 28 15:16:12 2020 login:192.168.6.137 37890
+Fri Feb 28 15:16:21 2020 command:logout
+Fri Feb 28 17:57:01 2020 login:192.168.6.137 37974
+Fri Feb 28 17:57:13 2020 command:ls
+Fri Feb 28 17:57:23 2020 command:cd ..
+Fri Feb 28 17:57:24 2020 command:ls
+Fri Feb 28 17:57:28 2020 command:cd ..
+Fri Feb 28 17:57:30 2020 command:ll

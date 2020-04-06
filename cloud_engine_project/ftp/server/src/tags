@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+OBJS	Makefile	/^OBJS:=$(wildcard *.c)$/;"	m
+client_handle	ftp_handle.c	/^void client_handle(psession_t ps)$/;"	f
+do_cd	ftp_handle.c	/^static void do_cd(psession_t ps) $/;"	f	file:
+do_gets	ftp_handle.c	/^static void do_gets(psession_t ps) $/;"	f	file:
+do_ls	ftp_handle.c	/^static void do_ls(psession_t ps) $/;"	f	file:
+do_puts	ftp_handle.c	/^static void do_puts(psession_t ps) \/\/puts a.txt b.txt$/;"	f	file:
+do_pwd	ftp_handle.c	/^static void do_pwd(psession_t ps) $/;"	f	file:
+do_remove	ftp_handle.c	/^static void do_remove(psession_t ps)\/\/ remove file $/;"	f	file:
+download	ftp_func.c	/^int download(socket_t fd_down, char* file_name)$/;"	f
+file_type	ftp_handle.c	/^static char* file_type(mode_t md)$/;"	f	file:
+ftp_arg_set	ftp_conf.c	/^static void ftp_arg_set(char* line, char* arg) $/;"	f	file:
+ftp_init_from_file	ftp_conf.c	/^void ftp_init_from_file(char* path, char* ip, char* port)$/;"	f
+main	ftp_server.c	/^int main(int argc, char* argv[])\/\/ conf_file path$/;"	f
+readn	ftp_func.c	/^int readn(int fd_read, char* read_buf, int len)$/;"	f
+recvn	ftp_func.c	/^int recvn(socket_t fd_recv,char* recv_buf, int len)$/;"	f
+sendn	ftp_func.c	/^int sendn(socket_t fd_send, char* send_buf, int len)$/;"	f
+sig_handle	ftp_server.c	/^void sig_handle(int signum)$/;"	f
+socket_client	ftp_func.c	/^socket_t socket_client(char* ip, char* port)$/;"	f
+socket_server	ftp_func.c	/^socket_t socket_server(char* ip, char* port)$/;"	f
+trim_space	ftp_func.c	/^void trim_space(char* src)$/;"	f
+upload	ftp_func.c	/^int upload(socket_t fd_up, char* file_name)$/;"	f
+writen	ftp_func.c	/^int writen(int fd_write, char* write_buf, int len)$/;"	f
