@@ -3,7 +3,7 @@
 int main(int argc,char *argv[])
 {
     int sems_id;
-    sems_id=semget(1000,2,IPC_CREAT|0600);
+    sems_id=semget(1001,2,IPC_CREAT|0600);
     ERROR_CHECK(sems_id,-1,"semget");
     unsigned short arr[2]={2,5};
     int ret=semctl(sems_id,0,SETALL,arr);

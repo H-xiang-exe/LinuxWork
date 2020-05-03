@@ -7,6 +7,3 @@ all:$(objs)
 rebuild:clean $(objs)
 clean:
 	rm -rf $(objs) 
-print:
-	@echo $(srcs)
-	@echo $(objs)

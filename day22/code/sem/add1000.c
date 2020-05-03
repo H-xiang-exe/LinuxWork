@@ -19,8 +19,8 @@ int main(int argc,char *argv[])
     sopp.sem_num=0;//0号信号量
     sopp.sem_op=-1;//p操作,为-1
     sopp.sem_flg=SEM_UNDO;
-    sopv.sem_num=0;
-    sopv.sem_op=1;
+    sopv.sem_num=0;//0号信号量
+    sopv.sem_op=1;//V操作
     sopv.sem_flg=SEM_UNDO;
     if(!fork()){
         for(i=0;i<N;i++){
