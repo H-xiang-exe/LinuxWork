@@ -19,7 +19,7 @@ void* threadfunc1(void *p)
             pthread_mutex_unlock(&p1->mutex);
             break;
         }
-        //sleep(1);
+        sleep(1);
     }
 }
 void* threadfunc2(void *p)
@@ -38,7 +38,7 @@ void* threadfunc2(void *p)
             pthread_mutex_unlock(&p1->mutex);
             break;
         }
-        //sleep(1);
+        sleep(1);
     }
 }
 

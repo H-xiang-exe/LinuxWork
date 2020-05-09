@@ -9,7 +9,7 @@ void * threadFunc(void *p)
     pthread_cleanup_push(cleanup,(void*)1);
     pthread_cleanup_push(cleanup,(void*)2);
     printf("I am child thread\n");
-    sleep(3);//被cancel,没有free，内存泄漏
+    sleep(3);//被cancel,弹出清理函数栈的所有函数并执行
     printf("I am child thread I am wake\n");
     pthread_exit(NULL);
     pthread_cleanup_pop(0);
